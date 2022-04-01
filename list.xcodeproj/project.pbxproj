@@ -15,6 +15,9 @@
 		998A7F0627F57FAA00065EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998A7F0427F57FAA00065EF5 /* LaunchScreen.storyboard */; };
 		998A7F1127F57FAB00065EF5 /* listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A7F1027F57FAB00065EF5 /* listTests.swift */; };
 		998A7F1C27F57FAB00065EF5 /* listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A7F1B27F57FAB00065EF5 /* listUITests.swift */; };
+		998A7F2E27F5901D00065EF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A7F2D27F5901D00065EF5 /* LoginViewController.swift */; };
+		99929E9D27F6EA6F00B1D0AB /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99929E9C27F6EA6F00B1D0AB /* HelloViewController.swift */; };
+		99929E9F27F6EABF00B1D0AB /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99929E9E27F6EABF00B1D0AB /* RegisterPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		998A7F1727F57FAB00065EF5 /* listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		998A7F1B27F57FAB00065EF5 /* listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listUITests.swift; sourceTree = "<group>"; };
 		998A7F1D27F57FAB00065EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998A7F2D27F5901D00065EF5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99929E9C27F6EA6F00B1D0AB /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		99929E9E27F6EABF00B1D0AB /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				998A7F0427F57FAA00065EF5 /* LaunchScreen.storyboard */,
 				998A7F0727F57FAB00065EF5 /* Info.plist */,
 				998A7EFF27F57FAA00065EF5 /* list.xcdatamodeld */,
+				998A7F2D27F5901D00065EF5 /* LoginViewController.swift */,
+				99929E9C27F6EA6F00B1D0AB /* HelloViewController.swift */,
+				99929E9E27F6EABF00B1D0AB /* RegisterPageViewController.swift */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998A7F2E27F5901D00065EF5 /* LoginViewController.swift in Sources */,
 				998A7EFB27F57FAA00065EF5 /* ViewController.swift in Sources */,
+				99929E9F27F6EABF00B1D0AB /* RegisterPageViewController.swift in Sources */,
 				998A7EF927F57FAA00065EF5 /* AppDelegate.swift in Sources */,
+				99929E9D27F6EA6F00B1D0AB /* HelloViewController.swift in Sources */,
 				998A7F0127F57FAA00065EF5 /* list.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +500,7 @@
 				998A7F2227F57FAB00065EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		998A7F2327F57FAB00065EF5 /* Build configuration list for PBXNativeTarget "listTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				998A7F2527F57FAB00065EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		998A7F2627F57FAB00065EF5 /* Build configuration list for PBXNativeTarget "listUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				998A7F2827F57FAB00065EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
