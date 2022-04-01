@@ -35,6 +35,9 @@ class LoginViewController: UIViewController {
         let userEmailStored = NSUserDefaults.standardUserDefaults().stringForKey("userEmail");
         let userPasswordStored = NSUserDefaults.standardUserDefaults().stringForKey("userPassword");
         
+        
+        
+        
         if( userEmail!.isEmpty||userPassword!.isEmpty)
         {
             
@@ -43,6 +46,11 @@ class LoginViewController: UIViewController {
             return
         }
         
+        if ( userEmail != userEmailStored && userPassword != userPasswordStored)
+        {
+            displayMyAlertMessage("Email OR Password does not exists")
+            return
+        }
         
         if ( userEmail != userEmailStored)
         {
